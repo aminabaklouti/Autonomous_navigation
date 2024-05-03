@@ -1,0 +1,35 @@
+[0.065s] Invoking command in '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins
+[0.476s] -- The C compiler identification is GNU 11.4.0
+[1.164s] -- The CXX compiler identification is GNU 11.4.0
+[1.607s] -- Detecting C compiler ABI info
+[2.153s] -- Detecting C compiler ABI info - done
+[2.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.175s] -- Detecting C compile features
+[2.177s] -- Detecting C compile features - done
+[2.223s] -- Detecting CXX compiler ABI info
+[2.774s] -- Detecting CXX compiler ABI info - done
+[2.796s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.797s] -- Detecting CXX compile features
+[2.797s] -- Detecting CXX compile features - done
+[2.834s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.940s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.642s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[3.643s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[3.644s]   has asked CMake to find a package configuration file provided by
+[3.644s]   "gazebo_dev", but CMake did not find one.
+[3.645s] 
+[3.646s]   Could not find a package configuration file provided by "gazebo_dev" with
+[3.647s]   any of the following names:
+[3.648s] 
+[3.648s]     gazebo_devConfig.cmake
+[3.649s]     gazebo_dev-config.cmake
+[3.650s] 
+[3.651s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[3.651s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[3.652s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[3.653s]   been installed.
+[3.653s] 
+[3.654s] [0m
+[3.658s] -- Configuring incomplete, errors occurred!
+[3.659s] See also "/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins/CMakeFiles/CMakeOutput.log".
+[3.660s] Invoked command in '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins

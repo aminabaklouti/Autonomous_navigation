@@ -1,0 +1,24 @@
+[0.049s] Invoking command in '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/td3 -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3
+[0.452s] -- The C compiler identification is GNU 11.4.0
+[1.205s] -- The CXX compiler identification is GNU 11.4.0
+[1.661s] -- Detecting C compiler ABI info
+[2.218s] -- Detecting C compiler ABI info - done
+[2.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.240s] -- Detecting C compile features
+[2.240s] -- Detecting C compile features - done
+[2.285s] -- Detecting CXX compiler ABI info
+[2.853s] -- Detecting CXX compiler ABI info - done
+[2.872s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.873s] -- Detecting CXX compile features
+[2.874s] -- Detecting CXX compile features - done
+[2.909s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.020s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.152s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.436s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.126s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.204s] -- Added test 'lint_cmake' to check CMake code style
+[23.281s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[30.901s] -- Added test 'xmllint' to check XML markup files
+[31.010s] -- Configuring done
+[31.167s] -- Generating done
+[31.226s] -- Build files have been written to: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3

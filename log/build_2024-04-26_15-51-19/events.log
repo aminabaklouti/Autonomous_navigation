@@ -1,0 +1,405 @@
+[0.000000] (-) TimerEvent: {}
+[0.001004] (td3) JobQueued: {'identifier': 'td3', 'dependencies': OrderedDict()}
+[0.001478] (velodyne_description) JobQueued: {'identifier': 'velodyne_description', 'dependencies': OrderedDict()}
+[0.001816] (velodyne_gazebo_plugins) JobQueued: {'identifier': 'velodyne_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.002815] (velodyne_simulator) JobQueued: {'identifier': 'velodyne_simulator', 'dependencies': OrderedDict([('velodyne_description', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_description'), ('velodyne_gazebo_plugins', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins')])}
+[0.029250] (velodyne_description) JobStarted: {'identifier': 'velodyne_description'}
+[0.029686] (velodyne_gazebo_plugins) JobStarted: {'identifier': 'velodyne_gazebo_plugins'}
+[0.033740] (td3) JobStarted: {'identifier': 'td3'}
+[0.054858] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'cmake'}
+[0.076872] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_description'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/td3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/9977_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.094442] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'cmake'}
+[0.097179] (-) TimerEvent: {}
+[0.100695] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/td3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/9977_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.111010] (td3) JobProgress: {'identifier': 'td3', 'progress': 'cmake'}
+[0.119111] (td3) JobProgress: {'identifier': 'td3', 'progress': 'build'}
+[0.122284] (td3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3', '--', '-j20', '-l20'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/td3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/9977_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.142586] (velodyne_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.156911] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.197299] (-) TimerEvent: {}
+[0.200890] (td3) CommandEnded: {'returncode': 0}
+[0.225286] (td3) JobProgress: {'identifier': 'td3', 'progress': 'install'}
+[0.232952] (td3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/td3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/9977_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.260872] (td3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.262050] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//launch\n'}
+[0.271536] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//launch/multi_robot_scenario.launch.py\n'}
+[0.297419] (-) TimerEvent: {}
+[0.332197] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//launch/pioneer3dx.rviz\n'}
+[0.390877] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//launch/robot_state_publisher.launch.py\n'}
+[0.417692] (-) TimerEvent: {}
+[0.458089] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//launch/test_simulation.launch.py\n'}
+[0.516510] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//launch/training_simulation.launch.py\n'}
+[0.517877] (-) TimerEvent: {}
+[0.569393] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models\n'}
+[0.590804] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot\n'}
+[0.618010] (-) TimerEvent: {}
+[0.620809] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes\n'}
+[0.656650] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser\n'}
+[0.703440] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/laser/hokuyo.dae\n'}
+[0.718151] (-) TimerEvent: {}
+[0.799795] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx\n'}
+[0.818250] (-) TimerEvent: {}
+[0.846635] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_rim.stl\n'}
+[0.902074] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[0.903153] (velodyne_gazebo_plugins) StderrLine: {'line': b'  By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.904087] (velodyne_gazebo_plugins) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.930824] (-) TimerEvent: {}
+[0.931148] (velodyne_gazebo_plugins) StderrLine: {'line': b'  "gazebo_dev", but CMake did not find one.\n'}
+[0.932237] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[0.933284] (velodyne_gazebo_plugins) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo_dev" with\n'}
+[0.934310] (velodyne_gazebo_plugins) StderrLine: {'line': b'  any of the following names:\n'}
+[0.935077] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[0.935748] (velodyne_gazebo_plugins) StderrLine: {'line': b'    gazebo_devConfig.cmake\n'}
+[0.936651] (velodyne_gazebo_plugins) StderrLine: {'line': b'    gazebo_dev-config.cmake\n'}
+[0.937960] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[0.939164] (velodyne_gazebo_plugins) StderrLine: {'line': b'  Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set\n'}
+[0.940312] (velodyne_gazebo_plugins) StderrLine: {'line': b'  "gazebo_dev_DIR" to a directory containing one of the above files.  If\n'}
+[0.941272] (velodyne_gazebo_plugins) StderrLine: {'line': b'  "gazebo_dev" provides a separate development package or SDK, be sure it has\n'}
+[0.942285] (velodyne_gazebo_plugins) StderrLine: {'line': b'  been installed.\n'}
+[0.942836] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[0.943655] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[0.944671] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.945638] (velodyne_gazebo_plugins) StdoutLine: {'line': b'See also "/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[0.946777] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 1}
+[0.948084] (velodyne_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.948939] (velodyne_description) StderrLine: {'line': b'  By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.949576] (velodyne_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "gazebo", but\n'}
+[0.950507] (velodyne_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.951174] (velodyne_description) StderrLine: {'line': b'\n'}
+[0.952058] (velodyne_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo" with any\n'}
+[0.952871] (velodyne_description) StderrLine: {'line': b'  of the following names:\n'}
+[0.953594] (velodyne_description) StderrLine: {'line': b'\n'}
+[0.954402] (velodyne_description) StderrLine: {'line': b'    gazeboConfig.cmake\n'}
+[0.955562] (velodyne_description) StderrLine: {'line': b'    gazebo-config.cmake\n'}
+[0.956378] (velodyne_description) StderrLine: {'line': b'\n'}
+[0.958056] (velodyne_description) StderrLine: {'line': b'  Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set\n'}
+[0.958864] (velodyne_description) StderrLine: {'line': b'  "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"\n'}
+[0.959656] (velodyne_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.960524] (velodyne_description) StderrLine: {'line': b'  installed.\n'}
+[0.961115] (velodyne_description) StderrLine: {'line': b'\n'}
+[0.961814] (velodyne_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.962531] (velodyne_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.963178] (velodyne_description) StdoutLine: {'line': b'See also "/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.996419] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/back_sonar.stl\n'}
+[0.998567] (velodyne_gazebo_plugins) JobEnded: {'identifier': 'velodyne_gazebo_plugins', 'rc': 1}
+[1.004825] (velodyne_description) JobEnded: {'identifier': 'velodyne_description', 'rc': 'SIGINT'}
+[1.031314] (-) TimerEvent: {}
+[1.080321] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_hubcap.stl\n'}
+[1.131468] (-) TimerEvent: {}
+[1.158501] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/center_wheel.stl\n'}
+[1.231618] (-) TimerEvent: {}
+[1.284189] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/chassis.stl\n'}
+[1.331742] (-) TimerEvent: {}
+[1.351138] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/Coordinates\n'}
+[1.415046] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_rim.stl\n'}
+[1.431881] (-) TimerEvent: {}
+[1.532299] (-) TimerEvent: {}
+[1.533791] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/front_sonar.stl\n'}
+[1.601318] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_hubcap.stl\n'}
+[1.632429] (-) TimerEvent: {}
+[1.685576] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/left_wheel.stl\n'}
+[1.732547] (-) TimerEvent: {}
+[1.800105] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_hubcap.stl\n'}
+[1.832656] (-) TimerEvent: {}
+[1.863140] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/right_wheel.stl\n'}
+[1.921191] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/swivel.stl\n'}
+[1.932778] (-) TimerEvent: {}
+[1.976939] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/meshes/p3dx/top.stl\n'}
+[2.032897] (-) TimerEvent: {}
+[2.058799] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/model.config\n'}
+[2.131577] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/td_robot.sdf\n'}
+[2.133012] (-) TimerEvent: {}
+[2.177173] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description\n'}
+[2.207338] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CHANGELOG.rst\n'}
+[2.233102] (-) TimerEvent: {}
+[2.289982] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/CMakeLists.txt\n'}
+[2.333257] (-) TimerEvent: {}
+[2.358927] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch\n'}
+[2.433398] (-) TimerEvent: {}
+[2.468049] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/launch/example-launch.py\n'}
+[2.527193] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes\n'}
+[2.533488] (-) TimerEvent: {}
+[2.597594] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.dae\n'}
+[2.633751] (-) TimerEvent: {}
+[2.676065] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_base.stl\n'}
+[2.733860] (-) TimerEvent: {}
+[2.744352] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.dae\n'}
+[2.825141] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/HDL32E_scan.stl\n'}
+[2.833976] (-) TimerEvent: {}
+[2.926910] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.dae\n'}
+[2.934067] (-) TimerEvent: {}
+[3.034609] (-) TimerEvent: {}
+[3.077103] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_1.stl\n'}
+[3.134781] (-) TimerEvent: {}
+[3.235987] (-) TimerEvent: {}
+[3.256887] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.dae\n'}
+[3.329224] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_base_2.stl\n'}
+[3.336078] (-) TimerEvent: {}
+[3.398501] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.dae\n'}
+[3.436184] (-) TimerEvent: {}
+[3.454337] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/meshes/VLP16_scan.stl\n'}
+[3.535395] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models\n'}
+[3.536723] (-) TimerEvent: {}
+[3.590527] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot\n'}
+[3.625790] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes\n'}
+[3.636808] (-) TimerEvent: {}
+[3.687103] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE\n'}
+[3.720904] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base\n'}
+[3.736894] (-) TimerEvent: {}
+[3.764840] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae\n'}
+[3.836996] (-) TimerEvent: {}
+[3.937332] (-) TimerEvent: {}
+[4.037681] (-) TimerEvent: {}
+[4.138004] (-) TimerEvent: {}
+[4.217573] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae\n'}
+[4.238135] (-) TimerEvent: {}
+[4.338541] (-) TimerEvent: {}
+[4.439097] (-) TimerEvent: {}
+[4.539484] (-) TimerEvent: {}
+[4.639859] (-) TimerEvent: {}
+[4.674397] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base\n'}
+[4.739959] (-) TimerEvent: {}
+[4.757160] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae\n'}
+[4.840082] (-) TimerEvent: {}
+[4.868904] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head\n'}
+[4.919807] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae\n'}
+[4.940183] (-) TimerEvent: {}
+[5.005333] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors\n'}
+[5.040278] (-) TimerEvent: {}
+[5.061379] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera\n'}
+[5.140435] (-) TimerEvent: {}
+[5.148618] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae\n'}
+[5.240561] (-) TimerEvent: {}
+[5.258415] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf\n'}
+[5.315882] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae\n'}
+[5.340637] (-) TimerEvent: {}
+[5.440995] (-) TimerEvent: {}
+[5.541462] (-) TimerEvent: {}
+[5.641964] (-) TimerEvent: {}
+[5.742378] (-) TimerEvent: {}
+[5.842801] (-) TimerEvent: {}
+[5.943255] (-) TimerEvent: {}
+[6.043668] (-) TimerEvent: {}
+[6.069034] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png\n'}
+[6.143782] (-) TimerEvent: {}
+[6.196680] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30\n'}
+[6.243881] (-) TimerEvent: {}
+[6.246920] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae\n'}
+[6.343984] (-) TimerEvent: {}
+[6.444334] (-) TimerEvent: {}
+[6.544701] (-) TimerEvent: {}
+[6.645097] (-) TimerEvent: {}
+[6.745486] (-) TimerEvent: {}
+[6.846314] (-) TimerEvent: {}
+[6.946856] (-) TimerEvent: {}
+[7.047301] (-) TimerEvent: {}
+[7.147724] (-) TimerEvent: {}
+[7.204833] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png\n'}
+[7.247814] (-) TimerEvent: {}
+[7.290641] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps\n'}
+[7.340989] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae\n'}
+[7.347899] (-) TimerEvent: {}
+[7.448242] (-) TimerEvent: {}
+[7.548635] (-) TimerEvent: {}
+[7.642303] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png\n'}
+[7.648745] (-) TimerEvent: {}
+[7.742693] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf\n'}
+[7.748841] (-) TimerEvent: {}
+[7.803439] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae\n'}
+[7.848937] (-) TimerEvent: {}
+[7.949289] (-) TimerEvent: {}
+[7.974608] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png\n'}
+[8.049429] (-) TimerEvent: {}
+[8.073863] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension\n'}
+[8.149540] (-) TimerEvent: {}
+[8.150427] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae\n'}
+[8.249650] (-) TimerEvent: {}
+[8.349913] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae\n'}
+[8.350529] (-) TimerEvent: {}
+[8.450901] (-) TimerEvent: {}
+[8.538413] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae\n'}
+[8.550979] (-) TimerEvent: {}
+[8.651381] (-) TimerEvent: {}
+[8.736750] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae\n'}
+[8.751465] (-) TimerEvent: {}
+[8.851886] (-) TimerEvent: {}
+[8.933867] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel\n'}
+[8.951962] (-) TimerEvent: {}
+[8.990289] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae\n'}
+[9.052054] (-) TimerEvent: {}
+[9.116559] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL\n'}
+[9.152157] (-) TimerEvent: {}
+[9.193288] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base\n'}
+[9.252245] (-) TimerEvent: {}
+[9.264825] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl\n'}
+[9.352375] (-) TimerEvent: {}
+[9.354688] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl\n'}
+[9.452491] (-) TimerEvent: {}
+[9.472695] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base\n'}
+[9.530289] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl\n'}
+[9.552576] (-) TimerEvent: {}
+[9.635280] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head\n'}
+[9.652685] (-) TimerEvent: {}
+[9.689130] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl\n'}
+[9.752786] (-) TimerEvent: {}
+[9.780527] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors\n'}
+[9.825510] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/camera\n'}
+[9.852874] (-) TimerEvent: {}
+[9.874376] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf\n'}
+[9.928104] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl\n'}
+[9.952979] (-) TimerEvent: {}
+[10.053442] (-) TimerEvent: {}
+[10.153869] (-) TimerEvent: {}
+[10.254667] (-) TimerEvent: {}
+[10.355706] (-) TimerEvent: {}
+[10.370361] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30\n'}
+[10.430322] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl\n'}
+[10.455832] (-) TimerEvent: {}
+[10.556467] (-) TimerEvent: {}
+[10.656893] (-) TimerEvent: {}
+[10.757331] (-) TimerEvent: {}
+[10.857773] (-) TimerEvent: {}
+[10.872781] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps\n'}
+[10.940826] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl\n'}
+[10.957853] (-) TimerEvent: {}
+[11.058266] (-) TimerEvent: {}
+[11.097602] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf\n'}
+[11.148058] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl\n'}
+[11.158374] (-) TimerEvent: {}
+[11.258808] (-) TimerEvent: {}
+[11.303473] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension\n'}
+[11.358939] (-) TimerEvent: {}
+[11.422694] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl\n'}
+[11.459029] (-) TimerEvent: {}
+[11.520143] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl\n'}
+[11.559116] (-) TimerEvent: {}
+[11.619364] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl\n'}
+[11.659210] (-) TimerEvent: {}
+[11.714989] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl\n'}
+[11.759345] (-) TimerEvent: {}
+[11.860251] (-) TimerEvent: {}
+[11.961386] (-) TimerEvent: {}
+[12.017353] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl\n'}
+[12.061471] (-) TimerEvent: {}
+[12.092540] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel\n'}
+[12.151290] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl\n'}
+[12.161555] (-) TimerEvent: {}
+[12.261930] (-) TimerEvent: {}
+[12.284797] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/model.config\n'}
+[12.346656] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/models/rs_robot/rs_robot.sdf\n'}
+[12.362025] (-) TimerEvent: {}
+[12.422692] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/package.xml\n'}
+[12.462145] (-) TimerEvent: {}
+[12.491001] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz\n'}
+[12.562253] (-) TimerEvent: {}
+[12.563843] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/rviz/example.rviz\n'}
+[12.628840] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf\n'}
+[12.662338] (-) TimerEvent: {}
+[12.665125] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/example.urdf.xacro\n'}
+[12.736304] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/HDL-32E.urdf.xacro\n'}
+[12.762426] (-) TimerEvent: {}
+[12.798793] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-16.urdf.xacro\n'}
+[12.862635] (-) TimerEvent: {}
+[12.920491] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/urdf/VLP-32C.urdf.xacro\n'}
+[12.962739] (-) TimerEvent: {}
+[12.976637] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world\n'}
+[13.017404] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/example.world\n'}
+[13.062848] (-) TimerEvent: {}
+[13.082111] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//models/td_robot/velodyne_description/world/lio_sam.model\n'}
+[13.129995] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts\n'}
+[13.163039] (-) TimerEvent: {}
+[13.166393] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/point_cloud2.py\n'}
+[13.250629] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models\n'}
+[13.263125] (-) TimerEvent: {}
+[13.288072] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_actor.pth\n'}
+[13.363258] (-) TimerEvent: {}
+[13.463937] (-) TimerEvent: {}
+[13.486108] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/pytorch_models/td3_velodyne_critic.pth\n'}
+[13.564029] (-) TimerEvent: {}
+[13.664385] (-) TimerEvent: {}
+[13.672369] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/replay_buffer.py\n'}
+[13.716508] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results\n'}
+[13.738663] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/results/TD3_velodyne.npy\n'}
+[13.764484] (-) TimerEvent: {}
+[13.797536] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs\n'}
+[13.822100] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403580.robotmania-MINIPC-PA90.28181.0\n'}
+[13.864623] (-) TimerEvent: {}
+[13.876799] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/runs/events.out.tfevents.1680403642.robotmania-MINIPC-PA90.28717.0\n'}
+[13.949860] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/test_velodyne_node.py\n'}
+[13.964709] (-) TimerEvent: {}
+[13.998538] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//scripts/train_velodyne_node.py\n'}
+[14.035109] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf\n'}
+[14.049185] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes\n'}
+[14.064935] (-) TimerEvent: {}
+[14.072729] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser\n'}
+[14.099715] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/laser/hokuyo.dae\n'}
+[14.155707] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx\n'}
+[14.165066] (-) TimerEvent: {}
+[14.209540] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_rim.stl\n'}
+[14.265220] (-) TimerEvent: {}
+[14.365829] (-) TimerEvent: {}
+[14.377423] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/back_sonar.stl\n'}
+[14.428165] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_hubcap.stl\n'}
+[14.465920] (-) TimerEvent: {}
+[14.486697] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/center_wheel.stl\n'}
+[14.549322] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/chassis.stl\n'}
+[14.566011] (-) TimerEvent: {}
+[14.604787] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/Coordinates\n'}
+[14.659978] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_rim.stl\n'}
+[14.666109] (-) TimerEvent: {}
+[14.766627] (-) TimerEvent: {}
+[14.775614] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/front_sonar.stl\n'}
+[14.827093] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_hubcap.stl\n'}
+[14.866735] (-) TimerEvent: {}
+[14.909055] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/left_wheel.stl\n'}
+[14.963979] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_hubcap.stl\n'}
+[14.966814] (-) TimerEvent: {}
+[15.063441] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/right_wheel.stl\n'}
+[15.066912] (-) TimerEvent: {}
+[15.127178] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/swivel.stl\n'}
+[15.167012] (-) TimerEvent: {}
+[15.184444] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/meshes/p3dx/top.stl\n'}
+[15.252316] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//urdf/td_robot.urdf\n'}
+[15.267096] (-) TimerEvent: {}
+[15.325778] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//worlds\n'}
+[15.340861] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3//worlds/td3.world\n'}
+[15.367192] (-) TimerEvent: {}
+[15.385093] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/replay_buffer.py\n'}
+[15.418615] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/test_velodyne_node.py\n'}
+[15.452837] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/train_velodyne_node.py\n'}
+[15.467278] (-) TimerEvent: {}
+[15.487649] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/point_cloud2.py\n'}
+[15.567394] (-) TimerEvent: {}
+[15.584537] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/multi_robot_scenario.launch.py\n'}
+[15.624554] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/robot_state_publisher.launch.py\n'}
+[15.664711] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/training_simulation.launch.py\n'}
+[15.667460] (-) TimerEvent: {}
+[15.729989] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/test_simulation.launch.py\n'}
+[15.767574] (-) TimerEvent: {}
+[15.778442] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/lib/td3/pioneer3dx.rviz\n'}
+[15.836554] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/package_run_dependencies/td3\n'}
+[15.867811] (-) TimerEvent: {}
+[15.910513] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/parent_prefix_path/td3\n'}
+[15.967938] (-) TimerEvent: {}
+[15.968942] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.sh\n'}
+[16.009930] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/environment/ament_prefix_path.dsv\n'}
+[16.052826] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.sh\n'}
+[16.068129] (-) TimerEvent: {}
+[16.128128] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/environment/path.dsv\n'}
+[16.167202] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.bash\n'}
+[16.168210] (-) TimerEvent: {}
+[16.201220] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.sh\n'}
+[16.231899] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.zsh\n'}
+[16.268346] (-) TimerEvent: {}
+[16.271838] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/local_setup.dsv\n'}
+[16.316707] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/package.dsv\n'}
+[16.368620] (-) TimerEvent: {}
+[16.399947] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/ament_index/resource_index/packages/td3\n'}
+[16.457746] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config.cmake\n'}
+[16.468717] (-) TimerEvent: {}
+[16.500813] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/cmake/td3Config-version.cmake\n'}
+[16.546604] (td3) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3/share/td3/package.xml\n'}
+[16.568810] (-) TimerEvent: {}
+[16.582991] (td3) JobEnded: {'identifier': 'td3', 'rc': 'SIGINT'}
+[16.594110] (velodyne_simulator) JobSkipped: {'identifier': 'velodyne_simulator'}
+[16.594286] (-) EventReactorShutdown: {}

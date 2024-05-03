@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (td3) JobQueued: {'identifier': 'td3', 'dependencies': OrderedDict()}
+[0.000814] (velodyne_description) JobQueued: {'identifier': 'velodyne_description', 'dependencies': OrderedDict()}
+[0.000968] (velodyne_gazebo_plugins) JobQueued: {'identifier': 'velodyne_gazebo_plugins', 'dependencies': OrderedDict()}
+[0.001160] (velodyne_simulator) JobQueued: {'identifier': 'velodyne_simulator', 'dependencies': OrderedDict([('velodyne_description', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_description'), ('velodyne_gazebo_plugins', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins')])}
+[0.001698] (velodyne_description) JobStarted: {'identifier': 'velodyne_description'}
+[0.030192] (velodyne_gazebo_plugins) JobStarted: {'identifier': 'velodyne_gazebo_plugins'}
+[0.055024] (td3) JobStarted: {'identifier': 'td3'}
+[0.072897] (velodyne_description) JobProgress: {'identifier': 'velodyne_description', 'progress': 'cmake'}
+[0.077421] (velodyne_description) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_description', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_description'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/342_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_description'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086659] (velodyne_gazebo_plugins) JobProgress: {'identifier': 'velodyne_gazebo_plugins', 'progress': 'cmake'}
+[0.086849] (velodyne_gazebo_plugins) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/velodyne_simulator/velodyne_gazebo_plugins', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/velodyne_gazebo_plugins'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/342_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.096148] (td3) JobProgress: {'identifier': 'td3', 'progress': 'cmake'}
+[0.096447] (td3) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/src/td3', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/install/td3'], 'cwd': '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mayna'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/mayna'), ('OLDPWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mayna'), ('NAME', 'DESKTOP-35EOIUL'), ('WSL_INTEROP', '/run/WSL/342_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.1.5.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files/Rockwell Software/RSCommon:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/oraclexe/app/oracle/product/11.2.0/server/bin:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/Bin:/mnt/c/Program Files (x86)/Common Files/Siemens/CommonArchiving:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Bin:/mnt/c/Program Files/Common Files/Siemens/Automation/Simatic OAM/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/130/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/130/DTS/Binn/:/mnt/c/Program Files (x86)/Siemens/Automation/SCADA-RT_V11/WinCC/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/:/mnt/c/Program Files (x86)/Common Files/Siemens/Interfaces:/mnt/c/Program Files (x86)/Common Files/Siemens/ACE/Interfaces:/mnt/c/Program Files/MATLAB/R2018a/runtime/win64:/mnt/c/Program Files/MATLAB/R2018a/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/LINGO64_12/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Java/jdk-17/bin:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files (x86)/Dev-Cpp/MinGW64/bin/x86_64-w64-mingw32-c++.exe:/mnt/c/Users/minou/AppData/Roaming/npm:/mnt/c/Users/minou/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/bin:/mnt/c/Users/minou/AppData/Local/Programs/Python/Python311:/mnt/c/Users/minou/Desktop/ffmpeg-6.0:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.104855] (-) TimerEvent: {}
+[0.205338] (-) TimerEvent: {}
+[0.305827] (-) TimerEvent: {}
+[0.406398] (-) TimerEvent: {}
+[0.504818] (velodyne_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.506046] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.506693] (-) TimerEvent: {}
+[0.506904] (td3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.606811] (-) TimerEvent: {}
+[0.707318] (-) TimerEvent: {}
+[0.807931] (-) TimerEvent: {}
+[0.908554] (-) TimerEvent: {}
+[1.009039] (-) TimerEvent: {}
+[1.109463] (-) TimerEvent: {}
+[1.192906] (velodyne_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.193737] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.209580] (-) TimerEvent: {}
+[1.259745] (td3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.309721] (-) TimerEvent: {}
+[1.410327] (-) TimerEvent: {}
+[1.510846] (-) TimerEvent: {}
+[1.540450] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.610962] (-) TimerEvent: {}
+[1.636439] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.711100] (-) TimerEvent: {}
+[1.715791] (td3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.811231] (-) TimerEvent: {}
+[1.911717] (-) TimerEvent: {}
+[2.012184] (-) TimerEvent: {}
+[2.082379] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.101590] (velodyne_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.109402] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.110587] (velodyne_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.112274] (-) TimerEvent: {}
+[2.167182] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.182479] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.204526] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.205379] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.206972] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.212377] (-) TimerEvent: {}
+[2.253271] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.273000] (td3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.293854] (td3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.294701] (td3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.295493] (td3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.312487] (-) TimerEvent: {}
+[2.339916] (td3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.412646] (-) TimerEvent: {}
+[2.513317] (-) TimerEvent: {}
+[2.614038] (-) TimerEvent: {}
+[2.714521] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.716269] (-) TimerEvent: {}
+[2.740915] (velodyne_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.742466] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.743960] (velodyne_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.799609] (velodyne_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.804304] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.816380] (-) TimerEvent: {}
+[2.825594] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.826587] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.827437] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.863609] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.907771] (td3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.915291] (velodyne_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.916770] (-) TimerEvent: {}
+[2.927227] (td3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.928029] (td3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.928664] (td3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.963571] (td3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.969438] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.016907] (-) TimerEvent: {}
+[3.074416] (td3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.117035] (-) TimerEvent: {}
+[3.207262] (td3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.217198] (-) TimerEvent: {}
+[3.317651] (-) TimerEvent: {}
+[3.418143] (-) TimerEvent: {}
+[3.490498] (td3) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.518243] (-) TimerEvent: {}
+[3.618693] (-) TimerEvent: {}
+[3.653316] (velodyne_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[3.654233] (velodyne_description) StderrLine: {'line': b'  By not providing "Findgazebo.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.655167] (velodyne_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "gazebo", but\n'}
+[3.656024] (velodyne_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.656841] (velodyne_description) StderrLine: {'line': b'\n'}
+[3.657733] (velodyne_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo" with any\n'}
+[3.658788] (velodyne_description) StderrLine: {'line': b'  of the following names:\n'}
+[3.660069] (velodyne_description) StderrLine: {'line': b'\n'}
+[3.661048] (velodyne_description) StderrLine: {'line': b'    gazeboConfig.cmake\n'}
+[3.662246] (velodyne_description) StderrLine: {'line': b'    gazebo-config.cmake\n'}
+[3.662853] (velodyne_description) StderrLine: {'line': b'\n'}
+[3.663759] (velodyne_description) StderrLine: {'line': b'  Add the installation prefix of "gazebo" to CMAKE_PREFIX_PATH or set\n'}
+[3.665026] (velodyne_description) StderrLine: {'line': b'  "gazebo_DIR" to a directory containing one of the above files.  If "gazebo"\n'}
+[3.665721] (velodyne_description) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.666487] (velodyne_description) StderrLine: {'line': b'  installed.\n'}
+[3.667265] (velodyne_description) StderrLine: {'line': b'\n'}
+[3.667835] (velodyne_description) StderrLine: {'line': b'\x1b[0m\n'}
+[3.672094] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[3.672959] (velodyne_gazebo_plugins) StderrLine: {'line': b'  By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.673733] (velodyne_gazebo_plugins) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.674457] (velodyne_gazebo_plugins) StderrLine: {'line': b'  "gazebo_dev", but CMake did not find one.\n'}
+[3.675171] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[3.675901] (velodyne_gazebo_plugins) StderrLine: {'line': b'  Could not find a package configuration file provided by "gazebo_dev" with\n'}
+[3.676857] (velodyne_gazebo_plugins) StderrLine: {'line': b'  any of the following names:\n'}
+[3.677650] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[3.678280] (velodyne_gazebo_plugins) StderrLine: {'line': b'    gazebo_devConfig.cmake\n'}
+[3.678885] (velodyne_gazebo_plugins) StderrLine: {'line': b'    gazebo_dev-config.cmake\n'}
+[3.680254] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[3.680824] (velodyne_gazebo_plugins) StderrLine: {'line': b'  Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set\n'}
+[3.681537] (velodyne_gazebo_plugins) StderrLine: {'line': b'  "gazebo_dev_DIR" to a directory containing one of the above files.  If\n'}
+[3.682190] (velodyne_gazebo_plugins) StderrLine: {'line': b'  "gazebo_dev" provides a separate development package or SDK, be sure it has\n'}
+[3.682910] (velodyne_gazebo_plugins) StderrLine: {'line': b'  been installed.\n'}
+[3.683535] (velodyne_gazebo_plugins) StderrLine: {'line': b'\n'}
+[3.684122] (velodyne_gazebo_plugins) StderrLine: {'line': b'\x1b[0m\n'}
+[3.684863] (velodyne_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.685717] (velodyne_description) StdoutLine: {'line': b'See also "/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_description/CMakeFiles/CMakeOutput.log".\n'}
+[3.687843] (velodyne_gazebo_plugins) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.688503] (velodyne_gazebo_plugins) StdoutLine: {'line': b'See also "/mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/velodyne_gazebo_plugins/CMakeFiles/CMakeOutput.log".\n'}
+[3.689309] (velodyne_description) CommandEnded: {'returncode': 1}
+[3.690269] (velodyne_gazebo_plugins) CommandEnded: {'returncode': 1}
+[3.718784] (-) TimerEvent: {}
+[3.772983] (velodyne_description) JobEnded: {'identifier': 'velodyne_description', 'rc': 1}
+[3.778163] (velodyne_gazebo_plugins) JobEnded: {'identifier': 'velodyne_gazebo_plugins', 'rc': 'SIGINT'}
+[3.818940] (-) TimerEvent: {}
+[3.919383] (-) TimerEvent: {}
+[4.019892] (-) TimerEvent: {}
+[4.120401] (-) TimerEvent: {}
+[4.220951] (-) TimerEvent: {}
+[4.321408] (-) TimerEvent: {}
+[4.421903] (-) TimerEvent: {}
+[4.522376] (-) TimerEvent: {}
+[4.622835] (-) TimerEvent: {}
+[4.723404] (-) TimerEvent: {}
+[4.824157] (-) TimerEvent: {}
+[4.924700] (-) TimerEvent: {}
+[5.025175] (-) TimerEvent: {}
+[5.125690] (-) TimerEvent: {}
+[5.226206] (-) TimerEvent: {}
+[5.326833] (-) TimerEvent: {}
+[5.427372] (-) TimerEvent: {}
+[5.529511] (-) TimerEvent: {}
+[5.630363] (-) TimerEvent: {}
+[5.730737] (-) TimerEvent: {}
+[5.831155] (-) TimerEvent: {}
+[5.931861] (-) TimerEvent: {}
+[6.032258] (-) TimerEvent: {}
+[6.132644] (-) TimerEvent: {}
+[6.232991] (-) TimerEvent: {}
+[6.333444] (-) TimerEvent: {}
+[6.433815] (-) TimerEvent: {}
+[6.534154] (-) TimerEvent: {}
+[6.634513] (-) TimerEvent: {}
+[6.734857] (-) TimerEvent: {}
+[6.835224] (-) TimerEvent: {}
+[6.935738] (-) TimerEvent: {}
+[7.036074] (-) TimerEvent: {}
+[7.136417] (-) TimerEvent: {}
+[7.236836] (-) TimerEvent: {}
+[7.337680] (-) TimerEvent: {}
+[7.438094] (-) TimerEvent: {}
+[7.538441] (-) TimerEvent: {}
+[7.638780] (-) TimerEvent: {}
+[7.739461] (-) TimerEvent: {}
+[7.839903] (-) TimerEvent: {}
+[7.940616] (-) TimerEvent: {}
+[8.040998] (-) TimerEvent: {}
+[8.141346] (-) TimerEvent: {}
+[8.241675] (-) TimerEvent: {}
+[8.342008] (-) TimerEvent: {}
+[8.442367] (-) TimerEvent: {}
+[8.542872] (-) TimerEvent: {}
+[8.673446] (-) TimerEvent: {}
+[8.804437] (-) TimerEvent: {}
+[8.906243] (-) TimerEvent: {}
+[9.006741] (-) TimerEvent: {}
+[9.107317] (-) TimerEvent: {}
+[9.207835] (-) TimerEvent: {}
+[9.318905] (-) TimerEvent: {}
+[9.419467] (-) TimerEvent: {}
+[9.519962] (-) TimerEvent: {}
+[9.620459] (-) TimerEvent: {}
+[9.720986] (-) TimerEvent: {}
+[9.821469] (-) TimerEvent: {}
+[9.921977] (-) TimerEvent: {}
+[10.023258] (-) TimerEvent: {}
+[10.123834] (-) TimerEvent: {}
+[10.224556] (-) TimerEvent: {}
+[10.325205] (-) TimerEvent: {}
+[10.425718] (-) TimerEvent: {}
+[10.533491] (-) TimerEvent: {}
+[10.634177] (-) TimerEvent: {}
+[10.734710] (-) TimerEvent: {}
+[10.835219] (-) TimerEvent: {}
+[10.935780] (-) TimerEvent: {}
+[11.039958] (-) TimerEvent: {}
+[11.140661] (-) TimerEvent: {}
+[11.241138] (-) TimerEvent: {}
+[11.341600] (-) TimerEvent: {}
+[11.442259] (-) TimerEvent: {}
+[11.543219] (-) TimerEvent: {}
+[11.643727] (-) TimerEvent: {}
+[11.744390] (-) TimerEvent: {}
+[11.845002] (-) TimerEvent: {}
+[11.945747] (-) TimerEvent: {}
+[12.046426] (-) TimerEvent: {}
+[12.147092] (-) TimerEvent: {}
+[12.247585] (-) TimerEvent: {}
+[12.348161] (-) TimerEvent: {}
+[12.448637] (-) TimerEvent: {}
+[12.549086] (-) TimerEvent: {}
+[12.649570] (-) TimerEvent: {}
+[12.750007] (-) TimerEvent: {}
+[12.850431] (-) TimerEvent: {}
+[12.952063] (-) TimerEvent: {}
+[13.052499] (-) TimerEvent: {}
+[13.153325] (-) TimerEvent: {}
+[13.253794] (-) TimerEvent: {}
+[13.354266] (-) TimerEvent: {}
+[13.454690] (-) TimerEvent: {}
+[13.555060] (-) TimerEvent: {}
+[13.655452] (-) TimerEvent: {}
+[13.755886] (-) TimerEvent: {}
+[13.856348] (-) TimerEvent: {}
+[13.956801] (-) TimerEvent: {}
+[14.057416] (-) TimerEvent: {}
+[14.158059] (-) TimerEvent: {}
+[14.258646] (-) TimerEvent: {}
+[14.359221] (-) TimerEvent: {}
+[14.462668] (-) TimerEvent: {}
+[14.563225] (-) TimerEvent: {}
+[14.663902] (-) TimerEvent: {}
+[14.764266] (-) TimerEvent: {}
+[14.864655] (-) TimerEvent: {}
+[14.965312] (-) TimerEvent: {}
+[15.077842] (-) TimerEvent: {}
+[15.178494] (-) TimerEvent: {}
+[15.279071] (-) TimerEvent: {}
+[15.379592] (-) TimerEvent: {}
+[15.480285] (-) TimerEvent: {}
+[15.580897] (-) TimerEvent: {}
+[15.681516] (-) TimerEvent: {}
+[15.782723] (-) TimerEvent: {}
+[15.883524] (-) TimerEvent: {}
+[15.984310] (-) TimerEvent: {}
+[16.085028] (-) TimerEvent: {}
+[16.185950] (-) TimerEvent: {}
+[16.286888] (-) TimerEvent: {}
+[16.387427] (-) TimerEvent: {}
+[16.487904] (-) TimerEvent: {}
+[16.588495] (-) TimerEvent: {}
+[16.688845] (-) TimerEvent: {}
+[16.789211] (-) TimerEvent: {}
+[16.889678] (-) TimerEvent: {}
+[16.990185] (-) TimerEvent: {}
+[17.092656] (-) TimerEvent: {}
+[17.193888] (-) TimerEvent: {}
+[17.295122] (-) TimerEvent: {}
+[17.396038] (-) TimerEvent: {}
+[17.496556] (-) TimerEvent: {}
+[17.597160] (-) TimerEvent: {}
+[17.697670] (-) TimerEvent: {}
+[17.809558] (-) TimerEvent: {}
+[17.910043] (-) TimerEvent: {}
+[18.010503] (-) TimerEvent: {}
+[18.111228] (-) TimerEvent: {}
+[18.212130] (-) TimerEvent: {}
+[18.313089] (-) TimerEvent: {}
+[18.413846] (-) TimerEvent: {}
+[18.514346] (-) TimerEvent: {}
+[18.614800] (-) TimerEvent: {}
+[18.715333] (-) TimerEvent: {}
+[18.815762] (-) TimerEvent: {}
+[18.916259] (-) TimerEvent: {}
+[19.017133] (-) TimerEvent: {}
+[19.118000] (-) TimerEvent: {}
+[19.218470] (-) TimerEvent: {}
+[19.319112] (-) TimerEvent: {}
+[19.419848] (-) TimerEvent: {}
+[19.520322] (-) TimerEvent: {}
+[19.620686] (-) TimerEvent: {}
+[19.721103] (-) TimerEvent: {}
+[19.821481] (-) TimerEvent: {}
+[19.922309] (-) TimerEvent: {}
+[20.023321] (-) TimerEvent: {}
+[20.123733] (-) TimerEvent: {}
+[20.181150] (td3) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[20.223851] (-) TimerEvent: {}
+[20.326862] (-) TimerEvent: {}
+[20.427470] (-) TimerEvent: {}
+[20.533161] (-) TimerEvent: {}
+[20.633644] (-) TimerEvent: {}
+[20.734079] (-) TimerEvent: {}
+[20.834597] (-) TimerEvent: {}
+[20.935251] (-) TimerEvent: {}
+[21.035779] (-) TimerEvent: {}
+[21.136373] (-) TimerEvent: {}
+[21.237254] (-) TimerEvent: {}
+[21.338143] (-) TimerEvent: {}
+[21.438589] (-) TimerEvent: {}
+[21.539126] (-) TimerEvent: {}
+[21.639607] (-) TimerEvent: {}
+[21.740064] (-) TimerEvent: {}
+[21.840532] (-) TimerEvent: {}
+[21.940975] (-) TimerEvent: {}
+[22.041581] (-) TimerEvent: {}
+[22.142279] (-) TimerEvent: {}
+[22.243297] (-) TimerEvent: {}
+[22.258962] (td3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[22.343604] (-) TimerEvent: {}
+[22.444765] (-) TimerEvent: {}
+[22.545952] (-) TimerEvent: {}
+[22.646641] (-) TimerEvent: {}
+[22.747272] (-) TimerEvent: {}
+[22.847787] (-) TimerEvent: {}
+[22.948210] (-) TimerEvent: {}
+[23.048654] (-) TimerEvent: {}
+[23.149102] (-) TimerEvent: {}
+[23.264818] (-) TimerEvent: {}
+[23.336064] (td3) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[23.364976] (-) TimerEvent: {}
+[23.466492] (-) TimerEvent: {}
+[23.567242] (-) TimerEvent: {}
+[23.668008] (-) TimerEvent: {}
+[23.768395] (-) TimerEvent: {}
+[23.868818] (-) TimerEvent: {}
+[23.969344] (-) TimerEvent: {}
+[24.069754] (-) TimerEvent: {}
+[24.170324] (-) TimerEvent: {}
+[24.271360] (-) TimerEvent: {}
+[24.371756] (-) TimerEvent: {}
+[24.472292] (-) TimerEvent: {}
+[24.572704] (-) TimerEvent: {}
+[24.673135] (-) TimerEvent: {}
+[24.773702] (-) TimerEvent: {}
+[24.874171] (-) TimerEvent: {}
+[24.974680] (-) TimerEvent: {}
+[25.075130] (-) TimerEvent: {}
+[25.175608] (-) TimerEvent: {}
+[25.276320] (-) TimerEvent: {}
+[25.376705] (-) TimerEvent: {}
+[25.477143] (-) TimerEvent: {}
+[25.577532] (-) TimerEvent: {}
+[25.678001] (-) TimerEvent: {}
+[25.778475] (-) TimerEvent: {}
+[25.878904] (-) TimerEvent: {}
+[25.979344] (-) TimerEvent: {}
+[26.079777] (-) TimerEvent: {}
+[26.180286] (-) TimerEvent: {}
+[26.281232] (-) TimerEvent: {}
+[26.382133] (-) TimerEvent: {}
+[26.482526] (-) TimerEvent: {}
+[26.582956] (-) TimerEvent: {}
+[26.683454] (-) TimerEvent: {}
+[26.783948] (-) TimerEvent: {}
+[26.884342] (-) TimerEvent: {}
+[26.984734] (-) TimerEvent: {}
+[27.085169] (-) TimerEvent: {}
+[27.185613] (-) TimerEvent: {}
+[27.286140] (-) TimerEvent: {}
+[27.386679] (-) TimerEvent: {}
+[27.487220] (-) TimerEvent: {}
+[27.588109] (-) TimerEvent: {}
+[27.688639] (-) TimerEvent: {}
+[27.789106] (-) TimerEvent: {}
+[27.889612] (-) TimerEvent: {}
+[27.990333] (-) TimerEvent: {}
+[28.091005] (-) TimerEvent: {}
+[28.191466] (-) TimerEvent: {}
+[28.291977] (-) TimerEvent: {}
+[28.392481] (-) TimerEvent: {}
+[28.492837] (-) TimerEvent: {}
+[28.593228] (-) TimerEvent: {}
+[28.714393] (-) TimerEvent: {}
+[28.814934] (-) TimerEvent: {}
+[28.915376] (-) TimerEvent: {}
+[29.015857] (-) TimerEvent: {}
+[29.116328] (-) TimerEvent: {}
+[29.216787] (-) TimerEvent: {}
+[29.317422] (-) TimerEvent: {}
+[29.417825] (-) TimerEvent: {}
+[29.518226] (-) TimerEvent: {}
+[29.618670] (-) TimerEvent: {}
+[29.719048] (-) TimerEvent: {}
+[29.819515] (-) TimerEvent: {}
+[29.919919] (-) TimerEvent: {}
+[30.020393] (-) TimerEvent: {}
+[30.120806] (-) TimerEvent: {}
+[30.221360] (-) TimerEvent: {}
+[30.321982] (-) TimerEvent: {}
+[30.422702] (-) TimerEvent: {}
+[30.523091] (-) TimerEvent: {}
+[30.623447] (-) TimerEvent: {}
+[30.723781] (-) TimerEvent: {}
+[30.824174] (-) TimerEvent: {}
+[30.924583] (-) TimerEvent: {}
+[30.955973] (td3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.024686] (-) TimerEvent: {}
+[31.065193] (td3) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.124789] (-) TimerEvent: {}
+[31.221586] (td3) StdoutLine: {'line': b'-- Generating done\n'}
+[31.224878] (-) TimerEvent: {}
+[31.280481] (td3) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/minou/Downloads/DRL_robot_navigation_ros2/DRL_robot_navigation_ros2/build/td3\n'}
+[31.284632] (td3) JobEnded: {'identifier': 'td3', 'rc': 'SIGINT'}
+[31.298613] (velodyne_simulator) JobSkipped: {'identifier': 'velodyne_simulator'}
+[31.299289] (-) EventReactorShutdown: {}
